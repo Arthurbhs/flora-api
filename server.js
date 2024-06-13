@@ -7,6 +7,7 @@ const port = 3000;
 
 // Usa o body-parser para tratar requisições JSON
 app.use(bodyParser.json());
+app.listen(process.env.PORT || 3000)
 
 // Dados de exemplo
 let flora = [
